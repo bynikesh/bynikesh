@@ -3,13 +3,6 @@ import { Link } from "gatsby"
 
 import Layout from "../components/layout"
 
-
-const SecondPage = () => (
-  <Layout>
-   <!-- Global site tag (gtag.js) - Google Analytics -->
-
-
-  </Layout>
-)
+const SecondPage = () => <Layout></Layout>
 
 export default SecondPage
