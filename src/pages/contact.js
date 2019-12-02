@@ -26,16 +26,14 @@ const contact = () => {
                   <form
                     method="post"
                     className="box contact-valid"
+                    action="/sucess"
                     id="contact-form"
                     name="contact-form"
                     data-netlify="true"
                     data-netlify-honeypot="bot-field"
                   >
-                    <input
-                      type="hidden"
-                      name="contact-form"
-                      value="contact-form"
-                    />
+                    <input type="hidden" name="bot-field" />
+                    <input type="hidden" name="form-name" value="contact-form" />
                     <div className="row">
                       <div className="col-lg-6 col-sm-12">
                         <input
@@ -72,7 +70,7 @@ const contact = () => {
                           <i className="fas fa-sync" />
                         </div>
                       </div>
-                      {/* <div className="col-lg-12 col-sm-12">
+                      <div className="col-lg-12 col-sm-12">
                         <div className="error-messages">
                           <div id="success">
                             <i className="far fa-check-circle" />
@@ -84,7 +82,7 @@ const contact = () => {
                             later.
                           </div>
                         </div>
-                      </div> */}
+                      </div>
                     </div>
                   </form>
                 </div>
