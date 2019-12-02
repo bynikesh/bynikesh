@@ -3,7 +3,7 @@ import React, { Component } from "react"
 import Layout from "../components/layout"
 
 import SEO from "../components/seo"
-import bgimage from "../images/bac.jpg"
+import bgimage from "../images/background.jpg"
 import cookieimg from "../images/cookies.png"
 import namaste from "../images/namaste.svg"
 import Typical from "react-typical"
@@ -46,7 +46,7 @@ class IndexPage extends React.Component {
                     Yes this website uses f***ing{" "}
                     <a href>
                       {" "}
-                      <img src={cookieimg} alt="Kiwi standing on oval" />
+                      <img src={cookieimg} alt="cookies images/ logo" />
                       cookies
                     </a>
                   </p>
@@ -164,4 +164,3 @@ class IndexPage extends React.Component {
   }
 }
 export default IndexPage
-

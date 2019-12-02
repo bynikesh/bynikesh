@@ -1,7 +1,7 @@
 import { Link } from "gatsby"
 import PropTypes from "prop-types"
 import React from "react"
-import logo from "../images/BN..png"
+import logo from "../images/logo.png"
 
 const Header = ({ siteTitle, data }) => (
   <div>
@@ -28,32 +28,51 @@ const Header = ({ siteTitle, data }) => (
                     <li>
                       <Link to="/" className="icon-h fas fa-housee-damage">
                         {" "}
-                        <img src="https://img.icons8.com/nolan/64/000000/home-page.png"></img>{" "}
+                        <img
+                          alt="home icon"
+                          src="https://img.icons8.com/nolan/48/000000/home-page.png"
+                        ></img>{" "}
                       </Link>
                     </li>
                     <li>
                       <Link to="/about" className="icon-a fas fa-userr-tie">
-                        <img src="https://img.icons8.com/nolan/64/000000/user.png"></img>
+                        <img
+                          alt="about icon"
+                          src="https://img.icons8.com/nolan/48/000000/user.png"
+                        ></img>
                       </Link>
                     </li>
                     <li>
-                      <Link to="/about" className="icon-a fas fa-userr-tie">
-                        <img src="https://img.icons8.com/nolan/64/000000/email.png"></img>
+                      <Link
+                        alt="contact icon"
+                        to="/contact"
+                        className="icon-a fas fa-userr-tie"
+                      >
+                        <img src="https://img.icons8.com/nolan/48/000000/email.png"></img>
                       </Link>
                     </li>
                     <li>
-                      <Link to="/about" className="icon-a fas fa-userr-tie">
-                        <img src="https://img.icons8.com/nolan/64/000000/code.png"></img>
+                      <Link to="/portfolio" className="icon-a fas fa-userr-tie">
+                        <img
+                          alt="portfolio icon"
+                          src="https://img.icons8.com/nolan/48/000000/code.png"
+                        ></img>
                       </Link>
                     </li>
                     <li>
-                      <Link to="/about" className="icon-a fas fa-userr-tie">
-                        <img src="https://img.icons8.com/nolan/64/000000/note.png"></img>
+                      <Link to="/blog" className="icon-a fas fa-userr-tie">
+                        <img
+                          alt="blog icon"
+                          src="https://img.icons8.com/nolan/48/000000/note.png"
+                        ></img>
                       </Link>
                     </li>
                   </ul>
                   {/* copyright */}
-                  <p> © 2018 All rights reserved.</p>
+                  <p>
+                    {" "}
+                    <span> © 2019 All rights reserved.</span>{" "}
+                  </p>{" "}
                   {/* Sound wave */}
                   {/* <a class="music-bg">
                     <div class="lines">

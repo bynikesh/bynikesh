@@ -24,20 +24,6 @@ export default function HTML(props) {
           dangerouslySetInnerHTML={{ __html: props.body }}
         />
         {props.postBodyComponents}
-                <script async src="https://www.googletagmanager.com/gtag/js?id=UA-44997043-2"></script>
-        <script>
-          window.dataLayer = window.dataLayer || [];
-          function gtag(){dataLayer.push(arguments);}
-          gtag('js', new Date());
-
-          gtag('config', 'UA-44997043-2');
-        </script>
-        <script
-          src="https://code.jquery.com/jquery-3.4.1.min.js"
-          integrity="sha256-CSXorXvZcTkaix6Yvo6HppcZGetbYMGWSFlBw8HfCJo="
-          crossorigin="anonymous"
-        ></script>
-        <script src="https://cdn.jsdelivr.net/npm/jquery-animated-headlines@1.0.0/dist/js/jquery.animatedheadline.min.js"></script>
       </body>
     </html>
   )

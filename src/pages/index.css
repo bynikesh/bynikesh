@@ -150,3 +150,439 @@
 .img {
   opacity: 0.6;
 }
+
+.page .about p {
+  font-size: 14px;
+  line-height: 24px;
+}
+.about .info .photo img {
+  -webkit-border-radius: 100%;
+  border-radius: 100%;
+}
+
+.about .info .loc {
+  font-size: 12px;
+  color: #fff;
+  padding-top: 15px;
+  padding-bottom: 15px;
+}
+
+.about .info p {
+  font-size: 14px;
+  line-height: 24px;
+}
+
+.about .info-icon {
+  padding-top: 45px;
+}
+
+.about .info-icon i {
+  display: flex;
+  float: left;
+  width: 45px;
+  height: 45px;
+  align-items: center;
+  justify-content: center;
+  color: #fff;
+  background: #0e0f10;
+  font-size: 20px;
+  -webkit-border-radius: 100%;
+  border-radius: 100%;
+  border: 1px solid #fff;
+  margin-right: 15px;
+}
+
+.about .desc-icon h6 {
+  font-size: 15px;
+  font-weight: 400;
+  line-height: 15px;
+}
+
+.about .desc-icon p {
+  color: #fff;
+  font-size: 12px;
+  line-height: 21px;
+}
+
+.about .desc-icon {
+  padding-left: 15px;
+  padding-top: 5px;
+}
+
+/* My Interests */
+.about .inter-icon {
+  position: relative;
+  background: #0e0f10;
+  margin: 20px 0;
+  padding: 15px;
+  -webkit-border-radius: 15px;
+  border-radius: 15px;
+  -webkit-transition: all 0.3s ease-in-out;
+  -moz-transition: all 0.3s ease-in-out;
+  -o-transition: all 0.3s ease-in-out;
+  transition: all 0.3s ease-in-out;
+}
+
+.about .inter-icon:after {
+  content: "";
+  position: absolute;
+  width: 2px;
+  height: 100%;
+  top: 0;
+  left: 55px;
+  background: #070708;
+}
+
+.about .inter-icon:hover {
+  background: #070708;
+}
+
+.about .inter-icon i {
+  position: relative;
+  width: 30px;
+  float: left;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  color: #fff;
+  font-size: 20px;
+  margin-right: 30px;
+}
+
+.about .desc-inter h6 {
+  font-size: 15px;
+  font-weight: 100;
+  line-height: 15px;
+}
+
+.about .desc-inter {
+  padding-top: 3px;
+}
+
+/* Service Block */
+.about .service {
+  text-align: center;
+}
+
+.about .service i {
+  position: relative;
+  width: 70px;
+  height: 70px;
+  font-size: 25px;
+  line-height: 70px;
+  color: #fff;
+  background-color: #0e0f10;
+  -webkit-border-radius: 50%;
+  border-radius: 50%;
+}
+
+.about .service:hover i:after {
+  content: "";
+  position: absolute;
+  width: 60px;
+  height: 60px;
+  top: 5px;
+  left: calc(50% - 30px);
+  border-radius: 100%;
+  border: 1px solid #fff;
+  -webkit-animation: zoomIn 0.3s ease;
+  animation: zoomIn 0.3s ease;
+}
+
+.about .service h4 {
+  padding-top: 20px;
+  padding-bottom: 20px;
+}
+
+/* Testimonial Block*/
+.about .testimonial-item {
+  position: relative;
+  padding: 30px;
+  margin: 0 15px;
+  background-color: rgba(0, 0, 0, 0.5);
+  -webkit-border-radius: 10px;
+  border-radius: 10px;
+}
+
+.about .testimonial-item:before {
+  content: "\f10e";
+  font-family: "Font Awesome 5 Free";
+  position: absolute;
+  top: 25px;
+  right: 35px;
+  color: #bb68c8;
+  font-size: 20px;
+  font-weight: 900;
+}
+
+.about .testimonial-item img {
+  width: 80px;
+  margin-right: 20px;
+  -webkit-border-radius: 50%;
+  border-radius: 50%;
+}
+
+.about .testimonial-item .content {
+  padding-top: 15px;
+}
+
+.about .testimonial-item .content p {
+  color: #777;
+  font-size: 13px;
+  font-weight: 400;
+  padding-top: 10px;
+}
+
+.about .testimonial-item .rating {
+  position: absolute;
+  top: 75px;
+  right: 25px;
+}
+
+.about .testimonial-item .rating li {
+  display: inline-block;
+  color: #bb68c8;
+}
+
+/* Price */
+.about .price {
+  text-align: center;
+  margin-bottom: 80px;
+}
+
+.about .price .head-price:after {
+  content: "";
+  position: absolute;
+  width: 100%;
+  height: 4px;
+  left: 0;
+  background: #0e0f10;
+}
+
+.about .price .head-price i {
+  position: absolute;
+  width: 70px;
+  height: 70px;
+  top: -40px;
+  left: 50%;
+  color: #fff;
+  font-size: 32px;
+  background-color: #0e0f10;
+  line-height: 70px;
+  -webkit-border-radius: 50%;
+  border-radius: 50%;
+  -webkit-transform: translateX(-50%);
+  -ms-transform: translateX(-50%);
+  transform: translateX(-50%);
+}
+
+.about .price:hover i:after {
+  content: "";
+  position: absolute;
+  width: 60px;
+  height: 60px;
+  top: 5px;
+  left: calc(50% - 30px);
+  -webkit-border-radius: 100%;
+  border-radius: 100%;
+  border: 1px solid #fff;
+  -webkit-animation: zoomIn 0.3s ease;
+  animation: zoomIn 0.3s ease;
+}
+
+.about .price .head-price h4 {
+  font-size: 20px;
+  padding-top: 25px;
+  padding-bottom: 25px;
+}
+
+.about .price .body-price .price-plan .number {
+  font-size: 22px;
+  font-weight: 500;
+}
+
+.about .price .body-price .price-plan {
+  padding: 25px 0;
+}
+
+.about .price .body-price .price-plan .currency {
+  position: relative;
+  bottom: 10px;
+  font-size: 15px;
+}
+
+.about .price .body-price .price-plan .period {
+  position: relative;
+  bottom: 0;
+  font-size: 14px;
+}
+
+.about .price .list-price ul li {
+  padding-bottom: 10px;
+}
+
+.about .price .list-price ul li.disable {
+  color: #777;
+  text-decoration: line-through !important;
+}
+
+.about .price .footer-price {
+  padding-top: 15px;
+}
+
+/* ---------------------------------
+		7. Portfolio Section
+--------------------------------- */
+/* Portfolio Filter */
+.portfolio .portfolio-filter {
+  text-align: center;
+}
+
+.portfolio .portfolio-filter ul {
+  display: inline-block;
+  margin: 0;
+  -webkit-border-radius: 50px;
+  border-radius: 50px;
+  -webkit-box-shadow: 0px 0px 10px 0px rgba(255, 255, 255, 0.1);
+  box-shadow: 0px 0px 10px 0px rgba(255, 255, 255, 0.1);
+}
+
+.portfolio .portfolio-filter ul li {
+  position: relative;
+  display: inline-block;
+  cursor: pointer;
+  font-size: 14px;
+  font-weight: 600;
+  padding: 10px 25px;
+  -webkit-transition: all 0.3s;
+  -moz-transition: all 0.3s;
+  -o-transition: all 0.3s;
+  transition: all 0.3s;
+}
+
+.portfolio .portfolio-filter ul li.active {
+  color: #0e0f10;
+  background-color: #fff;
+  -webkit-border-radius: 50px;
+  border-radius: 50px;
+}
+
+/* Portfolio Item */
+.portfolio .portfolio-items .item figure {
+  position: relative;
+  cursor: pointer;
+  background-color: #0e0f10;
+  -webkit-border-radius: 10px;
+  border-radius: 10px;
+  overflow: hidden;
+}
+
+.portfolio .portfolio-items .item figure img {
+  opacity: 1;
+  width: 100%;
+  height: 100%;
+  -webkit-transition: all 0.3s;
+  -moz-transition: all 0.3s;
+  -o-transition: all 0.3s;
+  transition: all 0.3s;
+}
+
+.portfolio .portfolio-items .item figure figcaption {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  padding: 30px;
+  color: #fff;
+}
+
+.portfolio .portfolio-items .item figure figcaption a {
+  position: absolute;
+  width: 100%;
+  height: 100%;
+  top: 0;
+  left: 0;
+}
+
+.portfolio .portfolio-items .item figure figcaption h3 {
+  opacity: 0;
+  color: #fff;
+  font-size: 20px;
+  font-weight: 700;
+  -webkit-transition: all 0.3s;
+  -moz-transition: all 0.3s;
+  -o-transition: all 0.3s;
+  transition: all 0.3s;
+}
+
+.portfolio .portfolio-items .item figure figcaption p {
+  position: absolute;
+  left: 0;
+  bottom: 0;
+  margin: 20px;
+  font-size: 14px;
+  padding-left: 15px;
+  opacity: 0;
+  -webkit-transform: translateX(-200%);
+  -ms-transform: translateX(-200%);
+  transform: translateX(-200%);
+  -webkit-transition: all 0.3s;
+  -moz-transition: all 0.3s;
+  -o-transition: all 0.3s;
+  transition: all 0.3s;
+}
+
+.portfolio .portfolio-items .item figure figcaption p:before {
+  content: "\f292";
+  font-family: "Font Awesome 5 Free";
+  position: absolute;
+  top: 0;
+  left: 0;
+  color: #fff;
+  font-weight: 900;
+}
+
+.portfolio .portfolio-items .item figure figcaption i {
+  position: absolute;
+  right: 0;
+  bottom: 0;
+  margin: 20px;
+  font-size: 24px;
+  opacity: 0;
+  -webkit-transform: translateX(200%);
+  -ms-transform: translateX(200%);
+  transform: translateX(200%);
+  -webkit-transition: all 0.3s;
+  -moz-transition: all 0.3s;
+  -o-transition: all 0.3s;
+  transition: all 0.3s;
+}
+
+.portfolio .portfolio-items .item figure:hover img {
+  opacity: 0.25;
+  -webkit-transform: scale(1.1);
+  -ms-transform: scale(1.1);
+  transform: scale(1.1);
+}
+
+.portfolio .portfolio-items .item figure:hover h3 {
+  opacity: 1;
+}
+
+.portfolio .portfolio-items .item figure:hover p {
+  opacity: 1;
+  -webkit-transform: translateX(0%);
+  -ms-transform: translateX(0%);
+  transform: translateX(0%);
+}
+
+.portfolio .portfolio-items .item figure:hover i {
+  opacity: 1;
+  -webkit-transform: translateX(0%);
+  -ms-transform: translateX(0%);
+  transform: translateX(0%);
+}

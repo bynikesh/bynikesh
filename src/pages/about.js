@@ -1,18 +1,21 @@
 import React from "react"
 import Layout from "../components/layout"
 import SEO from "../components/seo"
+import profileimage from "../images/profileimg.jpg"
+import "./index.css"
 const about = () => (
   <Layout>
     <SEO title="About: nikesh Adhikari" />
-    <div className="">
-      <div
-        className="page "
-        style={{
-          opacity: "0.7",
-          marginLeft: "145px",
-        }}
-        data-simplebar
-      >
+
+    <div
+      className="page"
+      style={{
+        opacity: "0.7",
+        marginLeft: "145px",
+      }}
+      data-simplebar
+    >
+      <div className="about">
         <section className="container">
           {/* Section Title */}
           <div className="header-page mt-70 mob-mt">
@@ -27,7 +30,7 @@ const about = () => (
                 <div className="row">
                   <div className="col-lg-3 col-sm-4">
                     <div className="photo">
-                      <img alt="" src="img/user-photo1.jpg" />
+                      <img alt="Photo of Nikesh Adhikari" src={profileimage} />
                     </div>
                   </div>
                   <div className="col-lg-9 col-sm-8">
@@ -72,6 +75,7 @@ const about = () => (
                   <div className="col-lg-3 col-sm-4">
                     <div className="info-icon">
                       <i className="fas fa-certificate" />
+
                       <div className="desc-icon">
                         <h6>5+ Projects</h6>
                         <p>Completed</p>
@@ -351,7 +355,7 @@ const about = () => (
                 </defs>
               </svg>
               <a
-                href="http://www.ajerez.es/en/"
+                href="http://www.bynikesh.com"
                 target="_blank"
                 className="contact-button"
               >
@@ -359,96 +363,16 @@ const about = () => (
                 <svg className="icon icon-paperplane">
                   <use xlinkHref="#icon-paperplane" />
                 </svg>
-                <span>alberto@ajerez.es</span>
+                <span>info@bynikesh.com</span>
               </a>
             </div>
-            {/* Price Item */}
-            {/* <div class="col-lg-4 col-sm-12">
-                        <div class="price box">
-                          <div class="head-price">
-                            <i class="fa fa-user"></i>
-                            <h4>Basic</h4>
-                          </div>
-                          <div class="body-price">
-                            <div class="price-plan">
-                              <span class="currency">$</span>
-                              <span class="number">25</span>
-                              <span class="period">month</span>
-                            </div>
-                            <div class="list-price">
-                              <ul>
-                                <li>Web Design</li>
-                                <li>Web Development</li>
-                                <li class="disable">Responsive Design</li>
-                                <li class="disable">Game Development</li>
-                              </ul>
-                            </div>
-                          </div>
-                          <div class="footer-price">
-                            <a href="#" class="btn-st">Buy Now</a>
-                          </div>
-                        </div>
-                      </div>
-
-                      <!-- Price Item */}
-            {/* <div class="col-lg-4 col-sm-12">
-                        <div class="price box">
-                          <div class="head-price">
-                            <i class="fa fa-briefcase"></i>
-                            <h4>Standard</h4>
-                          </div>
-                          <div class="body-price">
-                            <div class="price-plan">
-                              <span class="currency">$</span>
-                              <span class="number">40</span>
-                              <span class="period">month</span>
-                            </div>
-                            <div class="list-price">
-                              <ul>
-                                <li>Web Design</li>
-                                <li>Web Development</li>
-                                <li>Responsive Design</li>
-                                <li class="disable">Game Development</li>
-                              </ul>
-                            </div>
-                          </div>
-                          <div class="footer-price">
-                            <a href="#" class="btn-st">Buy Now</a>
-                          </div>
-                        </div>
-                      </div> */}
-            {/* Price Item */}
-            {/* <div class="col-lg-4 col-sm-12">
-                        <div class="price box">
-                          <div class="head-price">
-                            <i class="fa fa-globe"></i>
-                            <h4>Premium</h4>
-                          </div>
-                          <div class="body-price">
-                            <div class="price-plan">
-                              <span class="currency">$</span>
-                              <span class="number">55</span>
-                              <span class="period">month</span>
-                            </div>
-                            <div class="list-price">
-                              <ul>
-                                <li>Web Design</li>
-                                <li>Web Development</li>
-                                <li>Responsive Design</li>
-                                <li>Game Development</li>
-                              </ul>
-                            </div>
-                          </div>
-                          <div class="footer-price">
-                            <a href="#" class="btn-st">Buy Now</a>
-                          </div>
-                        </div>
-                      </div>  */}
           </div>
         </section>
       </div>
     </div>
   </Layout>
 )
-
+const style = {
+  fontFamiliy: "opensans",
+}
 export default about

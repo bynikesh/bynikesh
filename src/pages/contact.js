@@ -27,10 +27,10 @@ const contact = () => {
                     method="post"
                     className="box contact-valid"
                     id="contact-form"
+                    name="contact-form"
                     data-netlify="true"
                     data-netlify-honeypot="bot-field"
                   >
-                    <input type="hidden" name="bot-field" />
                     <div className="row">
                       <div className="col-lg-6 col-sm-12">
                         <input
@@ -67,7 +67,7 @@ const contact = () => {
                           <i className="fas fa-sync" />
                         </div>
                       </div>
-                      <div className="col-lg-12 col-sm-12">
+                      {/* <div className="col-lg-12 col-sm-12">
                         <div className="error-messages">
                           <div id="success">
                             <i className="far fa-check-circle" />
@@ -79,7 +79,7 @@ const contact = () => {
                             later.
                           </div>
                         </div>
-                      </div>
+                      </div> */}
                     </div>
                   </form>
                 </div>
@@ -90,23 +90,23 @@ const contact = () => {
               <div className="row">
                 <div className="col-lg-4 col-sm-12 info">
                   <i className="fas fa-paper-plane" />
-                  <p>example@example.com</p>
+                  <p>info@bynikesh.com</p>
                   <span>Email</span>
                 </div>
                 <div className="col-lg-4 col-sm-12 info">
                   <i className="fas fa-map-marker-alt" />
-                  <p>123 Lorem Ipsum, USA</p>
+                  <p>Ryde, Sydney </p>
                   <span>Addres</span>
                 </div>
                 <div className="col-lg-4 col-sm-12 info">
                   <i className="fas fa-phone" />
-                  <p>(+1) 123 456 7890</p>
+                  <p>(+61) 426585123</p>
                   <span>Phone</span>
                 </div>
               </div>
             </div>
             {/*Google Map Start*/}
-            <div className="google-map box mt-100 mb-100">
+            {/* <div className="google-map box mt-100 mb-100">
               <div className="row">
                 <div className="col-lg-12">
                   <div
@@ -117,7 +117,7 @@ const contact = () => {
                   />
                 </div>
               </div>
-            </div>
+            </div> */}
           </section>
         </div>
       </div>

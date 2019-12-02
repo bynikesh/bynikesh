@@ -1,12 +1,13 @@
 import React from "react"
 import Layout from "../components/layout"
 import SEO from "../components/seo"
+import "./index.css"
 const portfolio = () => (
   <Layout>
     <SEO title="About: nikesh Adhikari" />
     <div className="">
       <div
-        className="page "
+        className="page portfolio"
         style={{
           opacity: "0.7",
           marginLeft: "145px",
