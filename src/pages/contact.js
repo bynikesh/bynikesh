@@ -31,6 +31,11 @@ const contact = () => {
                     data-netlify="true"
                     data-netlify-honeypot="bot-field"
                   >
+                    <input
+                      type="hidden"
+                      name="contact-form"
+                      value="contact-form"
+                    />
                     <div className="row">
                       <div className="col-lg-6 col-sm-12">
                         <input
