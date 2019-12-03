@@ -42,15 +42,7 @@ const Header = ({ siteTitle, data }) => (
                         ></img>
                       </Link>
                     </li>
-                    <li>
-                      <Link
-                        alt="contact icon"
-                        to="/contact"
-                        className="icon-a fas fa-userr-tie"
-                      >
-                        <img src="https://img.icons8.com/nolan/48/000000/email.png"></img>
-                      </Link>
-                    </li>
+
                     <li>
                       <Link to="/portfolio" className="icon-a fas fa-userr-tie">
                         <img
@@ -65,6 +57,15 @@ const Header = ({ siteTitle, data }) => (
                           alt="blog icon"
                           src="https://img.icons8.com/nolan/48/000000/note.png"
                         ></img>
+                      </Link>
+                    </li>
+                    <li>
+                      <Link
+                        alt="contact icon"
+                        to="/contact"
+                        className="icon-a fas fa-userr-tie"
+                      >
+                        <img src="https://img.icons8.com/nolan/48/000000/email.png"></img>
                       </Link>
                     </li>
                   </ul>

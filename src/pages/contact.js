@@ -33,7 +33,11 @@ const contact = () => {
                     data-netlify-honeypot="bot-field"
                   >
                     <input type="hidden" name="bot-field" />
-                    <input type="hidden" name="form-name" value="contact-form" />
+                    <input
+                      type="hidden"
+                      name="form-name"
+                      value="contact-form "
+                    />
                     <div className="row">
                       <div className="col-lg-6 col-sm-12">
                         <input

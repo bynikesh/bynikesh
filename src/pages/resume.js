@@ -214,30 +214,30 @@ const resume = () => (
           </div>
         </div>
         {/* Work Process Row Start */}
-        <div className="row mt-100">
-          {/* Header Block */}
+        {/* <div className="row mt-100">
+        
           <div className="col-md-12">
             <div className="header-box mb-50">
               <h3>My Working Process</h3>
             </div>
           </div>
-        </div>
-        <div className="box work-process mb-100">
+        </div> */}
+        {/* <div className="box work-process mb-100">
           <div className="row">
             <div className="col-lg-4 col-sm-12 ltr">
-              {/* Working Process Item*/}
+             
               <div className="single-wp width-sm process-1">
                 <p className="wp-step">01</p>
                 <h4 className="wp-title">Discuss idea</h4>
               </div>
-              {/* Working Process Item*/}
+           
               <div className="single-wp width-sm process-2">
                 <p className="wp-step">02</p>
                 <h4 className="wp-title">Creative concept</h4>
               </div>
             </div>
             <div className="col-lg-4 hidden-sm">
-              {/* Working Process Circle*/}
+             
               <div className="wp-circle">
                 <h4>Working Process</h4>
                 <span className="dots top-l" />
@@ -247,13 +247,13 @@ const resume = () => (
               </div>
             </div>
             <div className="col-lg-4 col-sm-12 rtl">
-              {/* Working Process Item*/}
+              
               <div className="single-wp width-sm process-3">
                 <p className="wp-step">03</p>
                 <h4 className="wp-title">Web concept</h4>
                 <p></p>
               </div>
-              {/* Working Process Item*/}
+         
               <div className="single-wp width-sm process-4">
                 <p className="wp-step">04</p>
                 <h4 className="wp-title">Final concept</h4>
@@ -261,7 +261,7 @@ const resume = () => (
               </div>
             </div>
           </div>
-        </div>
+        </div> */}
       </section>
     </div>
   </Layout>

@@ -1,9 +1,9 @@
 /* -----------------------------------------------
-				CSS Styles Dark
+				CSS Styles 
 --------------------------------------------------
 
-    Template Name: Baha - Personal Portfolio Template
-    Author: Malyarchuk
+    Template Name: bynikesh - Personal Portfolio Theme
+    Author: Nikesh Adhikari
     Copyright: 2019
 
 --------------------------------------------------
@@ -32,12 +32,10 @@ Table of Content
 		1. Body and Core Css
 ----------------------------------- */
 
-@import url("https://fonts.googleapis.com/css?family=Poppins:300,400,500,600,700");
-
 * {
   margin: 0;
   padding: 0;
-  font-family: inherit;
+  font-family: Consolas, monaco, monospace;
   outline: none !important;
   list-style: none !important;
   text-decoration: none !important;
