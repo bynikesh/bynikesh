@@ -9,7 +9,6 @@ const contact = () => {
           className="page"
           style={{
             opacity: "0.7",
-            marginLeft: "145px",
           }}
           data-simplebar
         >
@@ -26,18 +25,13 @@ const contact = () => {
                   <form
                     method="post"
                     className="box contact-valid"
-                    action="/sucess"
                     id="contact-form"
-                    name="contact-form"
+                    name="contact"
                     data-netlify="true"
                     data-netlify-honeypot="bot-field"
                   >
                     <input type="hidden" name="bot-field" />
-                    <input
-                      type="hidden"
-                      name="form-name"
-                      value="contact-form "
-                    />
+                    <input type="hidden" name="form-name" value="contact" />
                     <div className="row">
                       <div className="col-lg-6 col-sm-12">
                         <input

@@ -8,6 +8,8 @@
 
 import "./src/styles/plugins/bootstrap.min.css"
 import "./src/styles/plugins/font-awesome.css"
+import "./src/styles/plugins/simplebar.css"
+
 import "./src/styles/style-dark.css"
 import "./src/styles/style-demo.css"
 import "./src/styles/settings/left-nav.css"

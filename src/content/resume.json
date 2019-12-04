@@ -1,0 +1,140 @@
+{
+  "basics": {
+    "name": "Nikesh Adhikari",
+    "label": "Deloper & Hustler",
+    "picture": "../src/images/profileimg.jpg",
+    "email": "info@bynikesh.com",
+    "website": "https://bynikesh.com",
+    "summary": "",
+    "profiles": [
+      {
+        "network": "Blog",
+        "url": "https://bynikesh.com"
+      },
+      {
+        "network": "Twitter",
+        "username": "bynikesh",
+        "url": "https://twitter.com/bynikesh"
+      },
+      {
+        "network": "GitHub",
+        "username": "bynikesh",
+        "url": "https://github.com/bynikesh"
+      }
+    ],
+    "location": {
+      "city": "Sydney",
+      "countryCode": "AUS"
+    }
+  },
+  "work": [
+    {
+      "company": "Harz University of Applied Sciences",
+      "position": "Student Developer",
+      "startDate": "2011-02-01",
+      "endDate": "2011-05-01",
+      "summary": "Conceptualizing a web design & development university seminar and building a [responsive & fluid grid framework](https://github.com/kremalicious/hsresponsive) with a basic HTML/CSS template for students of Media Informatics at the Harz University of Applied Sciences to learn and use."
+    },
+
+    {
+      "company": "Freelance",
+      "position": "Designer & Developer",
+      "startDate": "2004-01-01",
+      "summary": "Numerous projects and clients as a UI/UX Designer, Front End Developer, Icon Designer & Photographer."
+    }
+  ],
+  "education": [
+    {
+      "institution": "University of Technology Sydney",
+      "area": "Software and Web Application Development",
+      "studyType": "Masters of Information Technology",
+      "startDate": "2016-07-21",
+      "endDate": "2019-08-22"
+    },
+    {
+      "institution": "Leeds Beckett University",
+      "area": "Web and Software Development",
+      "studyType": "Bachelor Of Information Technology",
+      "startDate": "2011-03-01",
+      "endDate": "2015-01-01"
+    }
+  ],
+  "awards": [
+    {
+      "title": "German Design Award",
+      "date": "2015-11-01",
+      "awarder": "ezeep GmbH",
+      "summary": "Nominated in the category _Interactive User Experience (Excellent Communications Design)_"
+    }
+  ],
+  "skills": [
+    {
+      "name": "Design",
+      "level": "Intermediate",
+      "keywords": [
+        "Product Design",
+        "Service Design",
+        "Interface Design",
+        "User Experience Design",
+        "Communication Design",
+        "Interaction Design",
+        "Information Architecture",
+        "Icon Design",
+        "Web Design",
+        "Typography",
+        "Design management"
+      ]
+    },
+    {
+      "name": "Web Development",
+      "level": "Master",
+      "keywords": [
+        "HTML",
+        "CSS",
+        "Javascript",
+        "Node.js",
+        "npm ecosystem",
+        "SASS/SCSS",
+        "Less",
+        "Stylus",
+        "Gulp",
+        "Gatsby",
+        "React",
+        "Styled Components",
+        "JAMstack"
+      ]
+    },
+    {
+      "name": "General Software Development",
+      "level": "Master",
+      "keywords": [
+        "Git",
+        "GitHub",
+        "Bash",
+        "UNIX",
+        "Agile: Kanban & Scrum",
+        "Prototyping",
+        "Incremental"
+      ]
+    },
+    {
+      "name": "DevOps",
+      "level": "Intermediate",
+      "keywords": ["AWS", "Now", "Serverless", "Cloudflare", "NGINX", "Apache"]
+    }
+  ],
+  "languages": [
+    {
+      "language": "English",
+      "fluency": "Advanced speaker"
+    },
+    {
+      "language": "German",
+      "fluency": "Native speaker"
+    }
+  ],
+  "meta": {
+    "canonical": "https://bynikesh.com/resume",
+    "lastModified": ""
+  }
+}

@@ -33,8 +33,11 @@ class IndexPage extends React.Component {
         <div>
           {/* Home Section */}
           <div
-            className="pt-home"
-            style={{ backgroundImage: `url(${bgimage})`, opacity: 0.7 }}
+            className="home"
+            style={{
+              backgroundImage: `url(${bgimage})`,
+              opacity: 0.7,
+            }}
           >
             {/* Particles */}
             <div id="particles-js" />
@@ -55,21 +58,21 @@ class IndexPage extends React.Component {
               {/* Banner */}
               <div className="banner">
                 <div className="word">
-                  <span>N</span>
-                  <span>I</span>
-                  <span>K</span>
-                  <span>E</span>
-                  <span>S</span>
-                  <span>H</span>
-                  <span> </span>
-                  <span>A</span>
-                  <span>D</span>
-                  <span>H</span>
-                  <span>I</span>
-                  <span>K</span>
-                  <span>A</span>
-                  <span>R</span>
-                  <span>I</span>
+                  <h1>
+                    <span>N</span>
+                    <span>I</span>
+                    <span>K</span>
+                    <span>E</span>
+                    <span>S</span>
+                    <span>H</span> <b /> <span>A</span>
+                    <span>D</span>
+                    <span>H</span>
+                    <span>I</span>
+                    <span>K</span>
+                    <span>A</span>
+                    <span>R</span>
+                    <span>I</span>
+                  </h1>
                 </div>
                 {/* <div class="cookie-banner">
                         asdsada

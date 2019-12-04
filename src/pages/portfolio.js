@@ -10,7 +10,6 @@ const portfolio = () => (
         className="page portfolio"
         style={{
           opacity: "0.7",
-          marginLeft: "145px",
         }}
         data-simplebar
       >
